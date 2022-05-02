@@ -1,1 +1,1 @@
-# https://itsmeelo.github.io/shelter/pages/main/index.html
+#itsmeelo.github.io/shelter/pages/main/index.html
