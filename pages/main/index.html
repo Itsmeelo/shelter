@@ -25,9 +25,9 @@
                                 <li><a href="#about" class="about">About the shelter</a>
                                     <hr>
                                 </li>
-                                <li><a href="#ourPets" class="ourPeter">Our pets</a></li>
+                                <li><a href="../pets/index.html" class="ourPeter" target="_blank">Our pets</a></li>
                                 <li><a href="#help" class="help">Help the shelter</a></li>
-                                <li><a href="#contact" class="contact">Contact</a></li>
+                                <li><a href="#footer" class="contact">Contact</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -40,7 +40,8 @@
                         <p class="cont">We offer to give a chance to a little and nice puppy with an extremely wide and
                             open heart.
                             He or she will love you more than anybody else in the world, you will see!</p>
-                        <div class="button"><span> Find a friend</span></div>
+                        <div class="button"><a href="#ourFriend" style="text-decoration: none;"><span> Find a
+                                    friend</span></a></div>
                     </div>
                     <div class="puppy">
 
@@ -64,7 +65,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="pats">
+                <div class="pats" id="ourFriend">
                     <div class="patsContent">
                         <h3>Our friends who
                             are looking for a house</h3>
@@ -108,12 +109,13 @@
                             </a>
                         </div>
                         <a href="#" style="text-decoration: none;">
-                            <div class="buttonPrimary"><span>Get to know the rest</span></div>
+                            <div class="buttonPrimary"><a href="../pets/index.html" style="text-decoration: none;"
+                                    target="_blank"><span>Get to know the rest</span></a></div>
                         </a>
 
                     </div>
                 </div>
-                <div class="helpBlock">
+                <div class="helpBlock" id="help">
                     <div class="helpContent">
                         <h3 style="text-align: center;">How you can help
                             our shelter</h3>
@@ -241,25 +243,55 @@
                 </div>
             </main>
             <footer>
-                <div class="foot">
+                <div class="foot" id="footer">
                     <div class="footContent">
-                        <div class="footContact">
-                            <span class="fh3">For questions and suggestions</span>
-                            <div calss="mail">
-                                <div class="mailIcon"><img src="../../assets/images/icon-email.svg" alt="mail's icon" />
-                                    <h4 class="MailAdress">email@shelter.com</h4>
+                        <div class="divConteiner">
+                            <div class="footContact">
+                                <span class="fh3">For questions and suggestions</span>
+                                <div calss="mail">
+                                    <span class="mailIcon"><img src="../../assets/images/icon-email.png"
+                                            alt="mail's icon" /> </span>
+
+                                    <span class="MailAdress"><a href="mailto:email@shelter.com"
+                                            style="text-decoration: none; color: #F1CDB3"
+                                            target="_blank">email@shelter.com</a>
+                                    </span>
                                 </div>
 
-                            </div>
-                            <div class="phone">
-                                <div class="phoneIcon">
-                                    <img src="../../assets/images/icon-phone.svg" alt="Phone's icon" />
+
+                                <div class="phone">
+                                    <span class="phoneIcon">
+                                        <img src="../../assets/images/icon-phone.png" alt="Phone's icon" /> </span>
+                                    <span class="phoneNumber"><a href="tel:+13 674 567 75 54"
+                                            style="text-decoration: none; color: #F1CDB3" target="_blank">+13 674 567 75
+                                            54</a></span>
                                 </div>
-                                <h4 class="phoneNumber">+13 674 567 75 54</h4>
+                            </div>
+                            <div class="SpaceDiv"> </div>
+                            <div class="footLocation">
+                                <span class="fh3">We are waiting for your visit</span>
+                                <div calss="Adress1">
+                                    <span class="Location1"><a
+                                            href="https://www.google.com/maps/search/1+Central+Street,+Boston/@42.3079175,-71.0994218,14z/data=!3m1!4b1"
+                                            style="text-decoration: none; color: #F1CDB3" target="_blank"><img
+                                                src="../../assets/images/icon-marker1.svg" alt="location's icon" />
+                                        </a></span>
+
+                                    <span class="AdressL">1 Central Street, Boston</span>
+                                    <span class="AdressL"> (entrance
+                                        from the store) </span>
+                                </div>
+                                <div class="adress2">
+                                    <span class="location2">
+                                        <a href="https://www.google.com/maps/place/South+Park+Court,+18+S+Park+Rd,+London+SW19+8TD,+UK/@51.4202685,-0.2023686,17z/data=!3m1!4b1!4m5!3m4!1s0x487608baa7401b31:0x18e66d9fcd2f7d77!8m2!3d51.4202685!4d-0.2001799"
+                                            style="text-decoration: none; color: #F1CDB3" target="_blank"><img
+                                                src="../../assets/images/icon-marker.svg" /> </a></span>
+                                    <span class="Adressl2">18 South Park, London </span>
+                                </div>
                             </div>
                         </div>
-                        <div class="footLocation"></div>
-                        <div class="footPuppy"></div>
+                        <div class="footPuppy"><img src="../../assets/images/footer-puppy.svg" alt="puppy's photo" />
+                        </div>
                     </div>
                 </div>
             </footer>
