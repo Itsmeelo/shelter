@@ -4,7 +4,7 @@
 
 }
 
-.main {
+.mainDiv {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,7 +27,7 @@
     /*z-index: 1;*/
 }
 
-.heder {
+.HeadDiv {
     display: flex;
     justify-content: center;
 }
@@ -256,6 +256,10 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.button:hover {
+    background: blanchedalmond;
 }
 
 span {
@@ -564,6 +568,10 @@ h3 {
     top: 645px;
     background: #F1CDB3;
     border-radius: 100px;
+}
+
+.buttonPrimary:hover {
+    background: blanchedalmond;
 }
 
 .helpBlock {
