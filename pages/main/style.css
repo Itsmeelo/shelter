@@ -259,7 +259,7 @@ h2 {
 }
 
 .button:hover {
-    background: blanchedalmond;
+    box-shadow: 1px 1px 1px 1px #F1CDB3;
 }
 
 span {
@@ -445,6 +445,10 @@ h3 {
     margin: 0px 0px;
 }
 
+img {
+    border-style: none;
+}
+
 .card {
     width: 270px;
     height: 435px;
@@ -457,6 +461,7 @@ h3 {
     align-items: center;
 
 }
+
 
 .pat {
     left: 0%;
@@ -541,19 +546,10 @@ h3 {
 }
 
 .card:hover {
-    width: 270px;
-    height: 435px;
-    left: 105px;
-    top: 0px;
-    border-radius: 9px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background: cadetblue;
-
+    box-shadow: 2px 2px 2px 2px #b2b2b2;
 }
 
-.buttonSecondary:hover {
+.card:hover .buttonSecondary {
     background-color: #F1CDB3;
 }
 
@@ -571,7 +567,9 @@ h3 {
 }
 
 .buttonPrimary:hover {
-    background: blanchedalmond;
+    <<<<<<< HEAD box-shadow: 1px 1px 1px 1px #F1CDB3;
+    =======background: blanchedalmond;
+    >>>>>>>272f653bf08e7e8b76442711755a9a2426208d19
 }
 
 .helpBlock {
