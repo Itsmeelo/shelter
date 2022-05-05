@@ -567,9 +567,7 @@ img {
 }
 
 .buttonPrimary:hover {
-    <<<<<<< HEAD box-shadow: 1px 1px 1px 1px #F1CDB3;
-    =======background: blanchedalmond;
-    >>>>>>>272f653bf08e7e8b76442711755a9a2426208d19
+    box-shadow: 1px 1px 1px 1px #F1CDB3;
 }
 
 .helpBlock {
