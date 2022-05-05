@@ -259,7 +259,8 @@ h2 {
 }
 
 .button:hover {
-    box-shadow: 1px 1px 1px 1px #F1CDB3;
+    /*box-shadow: 1px 1px 1px 1px #fddcc4;*/
+    background-color: #fddcc4;
 }
 
 span {
@@ -433,6 +434,10 @@ h3 {
     border-radius: 100px;
 }
 
+.buttonArrow:hover {
+    background-color: #fddcc4;
+}
+
 .Arrow {
     position: static;
     left: 36.54%;
@@ -546,7 +551,7 @@ img {
 }
 
 .card:hover {
-    box-shadow: 2px 2px 2px 2px #b2b2b2;
+    box-shadow: 0px 2px 35px 14px rgba(13, 13, 13, 0.04);
 }
 
 .card:hover .buttonSecondary {
@@ -567,7 +572,8 @@ img {
 }
 
 .buttonPrimary:hover {
-    box-shadow: 1px 1px 1px 1px #F1CDB3;
+    /*box-shadow: 1px 1px 1px 1px #F1CDB3;*/
+    background-color: #fddcc4;
 }
 
 .helpBlock {
