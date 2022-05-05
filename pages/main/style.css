@@ -4,7 +4,7 @@
 
 }
 
-.main {
+.mainDiv {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,7 +27,7 @@
     /*z-index: 1;*/
 }
 
-.heder {
+.HeadDiv {
     display: flex;
     justify-content: center;
 }
@@ -567,7 +567,9 @@ img {
 }
 
 .buttonPrimary:hover {
-    box-shadow: 1px 1px 1px 1px #F1CDB3;
+    <<<<<<< HEAD box-shadow: 1px 1px 1px 1px #F1CDB3;
+    =======background: blanchedalmond;
+    >>>>>>>272f653bf08e7e8b76442711755a9a2426208d19
 }
 
 .helpBlock {
