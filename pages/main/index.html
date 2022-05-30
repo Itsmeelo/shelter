@@ -6,241 +6,261 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="(min-width: 768px) and (max-width: 1280px)" href="responsive.css">
+    <link rel="stylesheet" media="(min-width: 320px) and (max-width: 768px)" href="responsive320.css">
     <title>Shelter</title>
 </head>
 
 <body>
     <div calss="mainDiv">
         <div class="container">
-            <heder>
-                <div class="HeadDiv">
-                    <div class="headerContainer">
-                        <div class="logoCozy"><a href="index.html" style="text-decoration:none">
-                                <h1>Cozy House</h1>
-                                <sub> Shelter for pets in Boston</sub>
+            <div class="startScreen">
+                <heder>
+                    <div class="HeadDiv">
+                        <div class="headerContainer">
+                            <div class="logoCozy"><a href="index.html" style="text-decoration:none">
+                                    <h1>Cozy House</h1>
+                                    <sub> Shelter for pets in Boston</sub>
+                                </a>
+                            </div>
+                            <!--Burger menu for phone screen 320px-->
+                            <a href="app.js" ; class="icon" onclick="myFunction()">
+                                <div class="burgerMenu">
+                                    <div class="line1" class="bar"></div>
+                                    <div class="line2" class="bar"></div>
+                                    <div class="line3" class="bar"></div>
+                                </div>
                             </a>
+                            <!--                                   -->
+                            <nav class="navbar">
+                                <ul class="nav-menu">
+                                    <li class="nav-item"><a href="#about" class="about" class="nav-link">About the
+                                            shelter</a>
+                                        <hr>
+                                    </li>
+                                    <li class="nav-item"><a href="../pets/index.html" class="ourPeter" target="_blank"
+                                            class="nav-item">Our pets</a></li>
+                                    <li class="nav-link"><a href="#help" class="help" class="nav-item">Help the
+                                            shelter</a></li>
+                                    <li class="nav-link"><a href="#footer" class="contact" class="nav-item">Contact</a>
+                                    </li>
+                                </ul>
+                            </nav>
                         </div>
-                        <nav>
-                            <ul>
-                                <li><a href="#about" class="about">About the shelter</a>
-                                    <hr>
-                                </li>
-                                <li><a href="../pets/index.html" class="ourPeter" target="_blank">Our pets</a></li>
-                                <li><a href="#help" class="help">Help the shelter</a></li>
-                                <li><a href="#footer" class="contact">Contact</a></li>
-                            </ul>
-                        </nav>
                     </div>
-                </div>
-            </heder>
-            <main>
-                <div class="screenContent">
-                    <div class="conternt">
-                        <h2>Not only people need a house</h2>
-                        <p class="cont">We offer to give a chance to a little and nice puppy with an extremely wide and
-                            open heart.
-                            He or she will love you more than anybody else in the world, you will see!</p>
-                        <div class="button"><a href="#ourFriend" style="text-decoration: none;"><span> Make a
-                                    friend</span></a></div>
-                    </div>
-                    <div class="puppy">
+                </heder>
+                <main>
+                    <div class="screenContent" id="screenContent">
+                        <div class="conternt">
+                            <h2>Not only people need a house</h2>
+                            <p class="cont">We offer to give a chance to a little and nice puppy with an extremely wide
+                                and
+                                open heart.
+                                He or she will love you more than anybody else in the world, you will see!</p>
+                            <div class="button"><a href="#ourFriend" style="text-decoration: none;"><span> Make a
+                                        friend</span></a></div>
+                        </div>
+                        <div class="spaceMone"></div>
+                        <div class="puppy">
 
-                    </div>
-                </div>
-                <div class="about2">
-                    <div class="aboutContent">
-                        <div calss="aboutPat"><img src="../../assets/images/about-pets.svg" alt="pats photo" /></div>
-                        <div class="space"></div>
-                        <div class="content2">
-                            <h3>About the shelter “Cozy House”</h3>
-                            <p class="subheading1">Currently we have 121 dogs and 342 cats on our hands and statistics
-                                show that
-                                only 20% of them will find a family. The others will continue to live with us and will
-                                be waiting for a lucky chance to become dearly loved.</p>
-                            <p class="subheading2">We feed our wards with the best food and make sure that they do not
-                                get sick, feel comfortable (including psychologically) and well. We are supported by 87
-                                volunteers and 28 employees of various skill levels. About 12% of the animals are taken
-                                by the shelter staff. Taking care of the animals, they become attached to the pets and
-                                would hardly ever leave them alone.</p>
                         </div>
                     </div>
+            </div>
+            <div class="about2">
+                <div class="aboutContent">
+                    <div calss="aboutPat"><img src="../../assets/images/about-pets.svg" alt="pats photo" /></div>
+                    <div class="space"></div>
+                    <div class="content2">
+                        <h3>About the shelter “Cozy House”</h3>
+                        <p class="subheading1">Currently we have 121 dogs and 342 cats on our hands and statistics
+                            show that
+                            only 20% of them will find a family. The others will continue to live with us and will
+                            be waiting for a lucky chance to become dearly loved.</p>
+                        <p class="subheading2">We feed our wards with the best food and make sure that they do not
+                            get sick, feel comfortable (including psychologically) and well. We are supported by 87
+                            volunteers and 28 employees of various skill levels. About 12% of the animals are taken
+                            by the shelter staff. Taking care of the animals, they become attached to the pets and
+                            would hardly ever leave them alone.</p>
+                    </div>
                 </div>
-                <div class="pats" id="ourFriend">
-                    <div class="patsContent">
-                        <h3>Our friends who
-                            are looking for a house</h3>
-                        <div class="slider">
-                            <a href="#">
-                                <div class="buttonArrow">
-                                    <div class="Arrow"><img src="../../assets/images/Arrow.svg" /></div>
-                                </div>
-                            </a>
-                            <div class="card">
-                                <div class="pat"><img src="../../assets/images/pets-katrine.svg"
-                                        alt="Katrine's photo" />
-                                </div>
-                                <p class="Katrine">Katrine</p>
-                                <a href="#" style="text-decoration: none;">
-                                    <div class="buttonSecondary"><span>Learn
-                                            more</span></div>
-                                </a>
+            </div>
+            <div class="pats" id="ourFriend">
+                <div class="patsContent">
+                    <h3>Our friends who
+                        are looking for a house</h3>
+                    <div class="slider">
+                        <a href="#">
+                            <div class="buttonArrow" id="Arrow1">
+                                <div class="Arrow"><img src="../../assets/images/Arrow.svg" /></div>
                             </div>
-                            <div class="card">
-                                <div class="pat"><img src="../../assets/images/pets-jennifer.svg"
-                                        alt="Jennifer's photo" /></div>
-                                <p class="jennifer">Jennifer</p>
-                                <a href="#" style="text-decoration: none;">
-                                    <div class="buttonSecondary"><span>Learn
-                                            more</span></div>
-                                </a>
-                            </div>
-                            <div class="card">
-                                <div class="pat"><img src="../../assets/images/pets-woody.svg" alt="Woody's photo" />
-                                </div>
-                                <p class="woody">Woody</p>
-                                <a href="#" style="text-decoration: none;">
-                                    <div class="buttonSecondary"><span>Learn
-                                            more</span></div>
-                            </div>
-                            <a href="#">
-                                <div class="buttonArrow">
-                                    <div class="Arrow"><img src="../../assets/images/Arrow2.svg" /></div>
-                                </div>
-                            </a>
-                        </div>
-                        <a href="#" style="text-decoration: none;">
-                            <div class="buttonPrimary"><a href="../pets/index.html" style="text-decoration: none;"
-                                    target="_blank"><span>Get to know the rest</span></a></div>
                         </a>
-
-                    </div>
-                </div>
-                <div class="helpBlock" id="help">
-                    <div class="helpContent">
-                        <h3 style="text-align: center;">How you can help
-                            our shelter</h3>
-                        <div class="list">
-                            <div class="listOne">
-                                <div class="patFood">
-                                    <div class="icon1"><img src="../../assets/images/icon-pet-food.svg"
-                                            alt="pat food icon" />
-                                        <div class="vector"></div>
-                                    </div>
-
-                                    <div class="text1">
-                                        <h4>Pet food</h4>
-                                    </div>
-                                </div>
-                                <div class="transportation">
-                                    <div class="icon2"><img src="../../assets/images/icon-transportation.svg"
-                                            alt="tanspotation's icon" />
-                                        <div class="transpo"></div>
-                                    </div>
-                                    <div class="text2">
-                                        <h4>Transportation</h4>
-                                    </div>
-                                </div>
-                                <div class="toys">
-                                    <div class="icon3">
-                                        <img src="../../assets/images/icon-toys.svg" alt="toy's icon" />
-                                        <div class="toyVec"></div>
-                                    </div>
-
-                                    <div class="text3">
-                                        <h4>Toys</h4>
-                                    </div>
-                                </div>
-                                <div class="bowlsAndCups">
-                                    <div class="icon4">
-                                        <img src="../../assets/images/icon-bowls-and-cups.svg" />
-                                        <div class="CupVec"></div>
-                                    </div>
-
-                                    <div class="text4">
-                                        <h4>Bowls and cups</h4>
-                                    </div>
-                                </div>
-                                <div class="shampoos">
-                                    <div class="icon5">
-                                        <img src="../../assets/images/icon-shampoos.svg" alt="shampoos's icon" />
-                                        <div class="shamVector"></div>
-                                    </div>
-
-                                    <div class="text5">
-                                        <h4>Shampoos</h4>
-                                    </div>
-                                </div>
+                        <div class="card">
+                            <div class="pat"><img src="../../assets/images/pets-katrine.svg" alt="Katrine's photo" />
                             </div>
-                            <div class="listTwo">
-                                <div class="vitamins">
-                                    <div class="icon6">
-                                        <img src="../../assets/images/icon-vitamins.svg" alt="vitamin's icon" />
-                                        <div class="vitVector"></div>
-                                    </div>
+                            <p class="Katrine">Katrine</p>
+                            <a href="#" style="text-decoration: none;">
+                                <div class="buttonSecondary"><span>Learn
+                                        more</span></div>
+                            </a>
+                        </div>
+                        <div class="card" id="jenifer">
+                            <div class="pat"><img src="../../assets/images/pets-jennifer.svg" alt="Jennifer's photo" />
+                            </div>
+                            <p class="jennifer">Jennifer</p>
+                            <a href="#" style="text-decoration: none;">
+                                <div class="buttonSecondary"><span>Learn
+                                        more</span></div>
+                            </a>
+                        </div>
+                        <div class="card" id="woody">
+                            <div class="pat" id="woodyPic"><img src="../../assets/images/pets-woody.svg"
+                                    alt="Woody's photo" />
+                            </div>
+                            <p class="woody">Woody</p>
+                            <a href="#" style="text-decoration: none;">
+                                <div class="buttonSecondary"><span>Learn
+                                        more</span></div>
+                        </div>
+                        <a href="#">
+                            <div class="buttonArrow" id="arrow2">
+                                <div class="Arrow"><img src="../../assets/images/Arrow2.svg" /></div>
+                            </div>
+                        </a>
+                    </div>
+                    <a href="#" style="text-decoration: none;">
+                        <div class="buttonPrimary"><a href="../pets/index.html" style="text-decoration: none;"
+                                target="_blank"><span>Get to know the rest</span></a></div>
+                    </a>
 
-                                    <div class="text6">
-                                        <h4>Vitamins</h4>
-                                    </div>
-                                </div>
-                                <div class="medicines">
-                                    <div class="icon7">
-                                        <img src="../../assets/images/icon-medicines.svg" alt="medicines's icon" />
-                                        <div class="medVector"></div>
-                                    </div>
+                </div>
+            </div>
+            <div class="helpBlock" id="help">
+                <div class="helpContent">
+                    <h3 style="text-align: center;">How you can help
+                        our shelter</h3>
+                    <div class="list">
+                        <div class="patFood">
+                            <div class="icon1"><img src="../../assets/images/icon-pet-food.svg" alt="pat food icon" />
+                                <div class="vector"></div>
+                            </div>
 
-                                    <div class="text7">
-                                        <h4>Medicines</h4>
-                                    </div>
-                                </div>
-                                <div class="collarsLashes">
-                                    <div class="icon8">
-                                        <img src="../../assets/images/icon-collars-leashes.svg"
-                                            alt="Collars and leashes's icon" />
-                                        <div class="lashesVector"></div>
-                                    </div>
+                            <div class="text1">
+                                <h4>Pet food</h4>
+                            </div>
+                        </div>
+                        <div class="transportation">
+                            <div class="icon2"><img src="../../assets/images/icon-transportation.svg"
+                                    alt="tanspotation's icon" />
+                                <div class="transpo"></div>
+                            </div>
+                            <div class="text2">
+                                <h4>Transportation</h4>
+                            </div>
+                        </div>
+                        <div class="toys">
+                            <div class="icon3">
+                                <img src="../../assets/images/icon-toys.svg" alt="toy's icon" />
+                                <div class="toyVec"></div>
+                            </div>
 
-                                    <div class="text8">
-                                        <h4>Collars / leashes</h4>
-                                    </div>
-                                </div>
-                                <div class="slippingAreas">
-                                    <div class="icon9">
-                                        <img src="../../assets/images/icon-sleeping-area.svg"
-                                            alt="Slipping area's icon" />
-                                        <div class="SlippingVector"></div>
-                                    </div>
-                                    <div class="text9">
-                                        <h4>Sleeping areas</h4>
-                                    </div>
-                                </div>
+                            <div class="text3">
+                                <h4>Toys</h4>
+                            </div>
+                        </div>
+
+                        <div class="bowlsAndCups">
+                            <div class="icon4">
+                                <img src="../../assets/images/icon-bowls-and-cups.svg" />
+                                <div class="CupVec"></div>
+                            </div>
+
+                            <div class="text4">
+                                <h4>Bowls and cups</h4>
+                            </div>
+                        </div>
+                        <div class="shampoos">
+                            <div class="icon5">
+                                <img src="../../assets/images/icon-shampoos.svg" alt="shampoos's icon" />
+                                <div class="shamVector"></div>
+                            </div>
+
+                            <div class="text5">
+                                <h4>Shampoos</h4>
+                            </div>
+                        </div>
+                        <div class="vitamins">
+                            <div class="icon6">
+                                <img src="../../assets/images/icon-vitamins.svg" alt="vitamin's icon" />
+                                <div class="vitVector"></div>
+                            </div>
+
+                            <div class="text6">
+                                <h4>Vitamins</h4>
+                            </div>
+                        </div>
+
+                        <div class="medicines">
+                            <div class="icon7">
+                                <img src="../../assets/images/icon-medicines.svg" alt="medicines's icon" />
+                                <div class="medVector"></div>
+                            </div>
+
+                            <div class="text7">
+                                <h4>Medicines</h4>
+                            </div>
+                        </div>
+                        <div class="collarsLashes">
+                            <div class="icon8">
+                                <img src="../../assets/images/icon-collars-leashes.svg"
+                                    alt="Collars and leashes's icon" />
+                                <div class="lashesVector"></div>
+                            </div>
+
+                            <div class="text8">
+                                <h4>Collars / leashes</h4>
+                            </div>
+                        </div>
+                        <div class="slippingAreas">
+                            <div class="icon9">
+                                <img src="../../assets/images/icon-sleeping-area.svg" alt="Slipping area's icon" />
+                                <div class="SlippingVector"></div>
+                            </div>
+                            <div class="text9">
+                                <h4>Sleeping areas</h4>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="DonationBlog">
-                    <div class="donationContent">
-                        <div class="donationDog">
-                            <img src="../../assets/images/donation-dog.svg" />
-                        </div>
-                        <div class="donContect">
-                            <h3 style="margin-bottom:25px">You can also make a donation</h3>
-                            <h5>Name of the bank / Type of bank account</h5>
-                            <div class="CreditCard">
-                                <div class="creditContent">
-                                    <div class="bankCard"><img src="../../assets/images/credit-card.svg"
-                                            alt="credit card icon" /></div>
-                                    <div class="billingNumber"><a href="#"
-                                            style="text-decoration: none; color: #545454;">8380 2880 8028
-                                            8791 7435</a></div>
+            </div>
+
+            <div class="DonationBlog">
+                <div class="donationContent">
+                    <div class="donationDog">
+                        <img src="../../assets/images/donation-dog.svg" id="donationDog" />
+                    </div>
+                    <div class="donContect">
+                        <h3 style="margin-bottom:25px">You can also make a donation</h3>
+                        <h5>Name of the bank/Type of bank account</h5>
+                        <div class="CreditCard">
+                            <div class="creditContent">
+                                <div class="bankCard"><img src="../../assets/images/credit-card.svg"
+                                        alt="credit card icon" />
                                 </div>
+                                <div class="billingNumber"><a href="#"
+                                        style="text-decoration: none; color: #545454;">8380
+                                        2880
+                                        8028
+                                        8791 7435</a></div>
                             </div>
-                            <p class="legalInfo">Legal information and lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit. Maecenas a ipsum at libero sagittis dignissim sed ac diam. Praesent
-                                ultrices maximus tortor et vulputate. Interdum et malesuada fames ac ante ipsum primis
-                                in faucibus. </p>
                         </div>
+                        <p class="legalInfo">Legal information and lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit. Maecenas a ipsum at libero sagittis dignissim sed ac diam. Praesent
+                            ultrices maximus tortor et vulputate. Interdum et malesuada fames ac ante ipsum primis
+                            in faucibus. </p>
                     </div>
                 </div>
+            </div>
+
             </main>
             <footer>
                 <div class="foot" id="footer">
@@ -250,7 +270,8 @@
                                 <span class="fh3">For questions and suggestions</span>
                                 <div calss="mail">
                                     <span class="mailIcon"><img src="../../assets/images/icon-email.png"
-                                            alt="mail's icon" /> </span>
+                                            alt="mail's icon" />
+                                    </span>
 
                                     <span class="MailAdress"><a href="mailto:email@shelter.com"
                                             style="text-decoration: none; color: #F1CDB3"
@@ -263,7 +284,8 @@
                                     <span class="phoneIcon">
                                         <img src="../../assets/images/icon-phone.png" alt="Phone's icon" /> </span>
                                     <span class="phoneNumber"><a href="tel:+13 674 567 75 54"
-                                            style="text-decoration: none; color: #F1CDB3" target="_blank">+13 674 567 75
+                                            style="text-decoration: none; color: #F1CDB3" target="_blank">+13 674
+                                            567 75
                                             54</a></span>
                                 </div>
                             </div>
@@ -292,14 +314,15 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="footPuppy"><img src="../../assets/images/footer-puppy.svg" alt="puppy's photo" />
+                        <div class="footPuppy"><img src="../../assets/images/footer-puppy.svg" alt="puppy's photo"
+                                id="footPuppy" />
                         </div>
                     </div>
                 </div>
             </footer>
         </div>
     </div>
-    <script src="script.js"></script>
+    <script src="app.js"></script>
 </body>
 
 </html>
