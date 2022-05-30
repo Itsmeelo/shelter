@@ -56,12 +56,17 @@
     }
 
     .logoCozy {
-        width: 184px;
+        width: 200px;
         height: 60px;
         /*margin-right: 43px;*/
         margin-left: 60px;
         margin-right: 40px;
         padding: 0;
+    }
+
+    h1 {
+        width: 200px;
+        height: 60px;
     }
 
     nav {
