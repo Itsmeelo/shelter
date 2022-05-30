@@ -604,7 +604,8 @@ img {
 
 .list {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     width: 1026px;
@@ -628,24 +629,25 @@ h4 {
     color: #545454;
 }
 
+/*
 .listOne {
     display: flex;
     align-items: center;
     flex-direction: row;
-    justify-content: center;
-    /*border-color: crimson;
+    justify-content: center;*/
+/*border-color: crimson;
     border-style: solid;*/
-    margin-bottom: 15px;
+/*margin-bottom: 15px;
 }
 
 .listTwo {
     display: flex;
     align-items: center;
     flex-direction: row;
-    justify-content: center;
-    /*border-color: crimson;
-    border-style: solid;*/
-}
+    justify-content: center;*/
+/*border-color: crimson;
+    border-style: solid;
+}*/
 
 .patFood {
     width: 82px;
