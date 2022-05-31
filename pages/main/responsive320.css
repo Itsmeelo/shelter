@@ -75,6 +75,7 @@
         padding-right: 0px;
         margin-left: 60px;
         overflow: hidden;
+        display: none;
     }
 
     .navbar {
@@ -360,16 +361,19 @@
     #woody {
         overflow: hidden;
         background: #F6F6F6;
+        display: none;
     }
 
     #jenifer {
         overflow: hidden;
         background: #F6F6F6;
+        display: none;
     }
 
     #Arrow1 {
         overflow: hidden;
         margin-bottom: 20px;
+        display: none;
     }
 
     .card {
