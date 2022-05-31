@@ -706,3 +706,712 @@
         height: 269px;
     }
 }
+
+@media (max-width: 320px) {
+    .mainDiv {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        margin: auto;
+    }
+
+    .container {
+        /*position: relative;*/
+        width: 320px;
+        height: 4684px;
+        margin: auto;
+        /*display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: flex-start;*/
+    }
+
+    .startScreen {
+        height: 823px;
+        width: 320px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 320px;
+        height: 823px;
+
+
+    }
+
+    .HeadDiv {
+        width: 257px;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /*border-color: aqua;
+        border-style: solid;*/
+    }
+
+    .headerContainer {
+        width: 300px;
+        height: 60px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        /*margin-top: 60px;*/
+        align-items: center;
+        /*margin-top: 50px;*/
+        /*border-color: crimson;
+        border-style: solid;*/
+        margin-left: 20px;
+    }
+
+    .logoCozy {
+        width: 200px;
+        height: 60px;
+        /*margin-right: 43px;*/
+        margin-left: 60px;
+        margin-right: 40px;
+        padding: 0;
+    }
+
+    h1 {
+        width: 200px;
+        margin: 0;
+    }
+
+    nav {
+        display: flex;
+        justify-content: end;
+        padding-right: 0px;
+        margin-left: 60px;
+        overflow: hidden;
+    }
+
+    .navbar {
+        width: 243px;
+        height: 327px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nav-link {
+        transition: 0.7s ease;
+    }
+
+    .nav-link:hover {
+        color: #F1CDB3;
+    }
+
+    .burgerMenu {
+        display: none;
+        cursor: pointer;
+    }
+
+    .bar {
+        display: block;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    }
+
+    ul {
+        display: inline-block;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        list-style-type: none;
+        width: 243px;
+        height: 327px;
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+    }
+
+    .burgerMenu {
+        width: 30px;
+        height: 22px;
+        display: block;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .burgerMenu.active .bar:nth-child(1) {
+        opacity: 0;
+    }
+
+    .burgerMenu.active .bar:nth-child(2) {
+        transform: rotate(90deg);
+    }
+
+    .burgerMenu.active .bar:nth-child(3) {
+        transform: rotate(-90deg);
+    }
+
+
+    .line1 {
+        width: 30px;
+        height: 0px;
+        border: 2px solid #F1CDB3;
+    }
+
+    .line2 {
+        width: 30px;
+        height: 0px;
+        border: 2px solid #F1CDB3;
+
+    }
+
+    .line3 {
+        width: 30px;
+        height: 0px;
+        border: 2px solid #F1CDB3;
+    }
+
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        gap: 0;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    main {
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #screenContent {
+        width: 300px;
+        height: 673px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+        margin-top: 90px;
+        /*border-color: blueviolet;
+        border-style: solid;*/
+        padding: 0px;
+    }
+
+    .content {
+        width: 300px;
+        height: 296px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /*margin-bottom: 200px;*/
+        border-color: crimson;
+        border-style: solid;
+    }
+
+    h2 {
+        width: 300px;
+        height: 64px;
+        font-family: 'Georgia';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 130%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+        color: #FFFFFF;
+    }
+
+    .cont {
+        width: 300px;
+        height: 96px;
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 160%;
+        align-items: center;
+        text-align: center;
+        color: #CDCDCD;
+    }
+
+    .button {
+        margin: auto;
+        width: 207px;
+        height: 52px;
+    }
+
+    .puppy {
+        Width: 260px;
+        Height: 271.77px;
+    }
+
+    .about2 {
+        /*width: 320px;*/
+        height: 974px;
+        width: 320px;
+        background: #FFFFFF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /*margin-bottom: 42px;*/
+        /*border-color: crimson;
+        border-style: solid;*/
+    }
+
+    .aboutContent {
+        width: 300px;
+        height: 890px;
+        left: calc(50% - 437px/2 - 0.5px);
+        top: calc(50% - 868px/2 - 10px);
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 0px;
+    }
+
+    .content2 {
+        width: 300px;
+        height: 494px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: -43px;
+
+    }
+
+    h3 {
+        width: 300px;
+        height: 64px;
+        font-family: 'Georgia';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 130%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+        color: #545454;
+        margin-bottom: 25px;
+    }
+
+    .subheading1 {
+        width: 270px;
+        height: 144px;
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 160%;
+        text-align: justify;
+        color: #4C4C4C;
+        margin-bottom: 22px;
+    }
+
+    .subheading2 {
+        width: 270px;
+        height: 239px;
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 160%;
+        display: flex;
+        align-items: center;
+        text-align: justify;
+        color: #4C4C4C;
+        margin-bottom: 50px;
+    }
+
+    .aboutPat {
+        width: 260px;
+        height: 353.6px;
+
+    }
+
+    #ourFriend {
+        width: 320px;
+        height: 791px;
+        background: #F6F6F6;
+    }
+
+    .patContent {
+        width: 300px;
+        height: 707px;
+    }
+
+    .slider {
+        width: 270px;
+        height: 507px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        /*flex-wrap: wrap;*/
+    }
+
+    /*a {
+        overflow: hidden;
+    }*/
+
+    #woody {
+        overflow: hidden;
+        background: #F6F6F6;
+    }
+
+    #jenifer {
+        overflow: hidden;
+        background: #F6F6F6;
+    }
+
+    #Arrow1 {
+        overflow: hidden;
+        margin-bottom: 20px;
+    }
+
+    .card {
+        margin-bottom: 5px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 700px;
+    }
+
+    .buttonSecondary {
+        margin-bottom: 30px;
+    }
+
+    .buttonPrimary {
+        width: 210px;
+        height: 52px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 15px 45px;
+        margin-bottom: 42px;
+        /*gap: 10px;*/
+    }
+
+    #help {
+        width: 320px;
+        height: 745px;
+        background: #FFFFFF;
+        /*border-color: crimson;
+        border-style: solid;*/
+    }
+
+    .helpContent {
+        width: 320px;
+        height: 650px;
+        /*border-color: darkmagenta;
+        border-style: solid;*/
+    }
+
+    .list {
+        width: 320px;
+        height: 555px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+        /*border-color: aqua;
+        border-style: solid;*/
+
+    }
+
+    .patFood {
+        width: 130px;
+        height: 87px;
+        margin: 0;
+        padding: 0;
+        /*margin-right: 60px;*/
+    }
+
+    .transportation {
+        width: 130px;
+        height: 87px;
+        /*margin-right: 60px;*/
+        margin: 0;
+        padding: 0;
+    }
+
+    .toys {
+        width: 130px;
+        height: 87px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .bowlsAndCups {
+        width: 130px;
+        height: 87px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .shampoos {
+        width: 130px;
+        height: 87px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .vitamins {
+        width: 130px;
+        height: 87px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .medicines {
+        width: 130px;
+        height: 87px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .collarsLashes {
+        width: 130px;
+        height: 87px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .slippingAreas {
+        width: 130px;
+        height: 87px;
+        margin: 0;
+        padding: 0;
+    }
+
+    h4 {
+        font-family: 'Georgia';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 110%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+        color: #545454;
+    }
+
+    .text1 {
+        width: 130px;
+        height: 17px;
+    }
+
+    .text2 {
+        width: 130px;
+        height: 17px;
+    }
+
+    .DonationBlog {
+        width: 320px;
+        height: 542.2px;
+        background: #F6F6F6;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .donationContent {
+        width: 300px;
+        height: 500px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        /*border-color: aqua;
+        border-style: solid;*/
+    }
+
+    .donContect {
+        width: 300px;
+        height: 320px;
+        /*border-color: blueviolet;
+        border-style: solid;*/
+        display: flex;
+        align-items: center;
+        margin-bottom: 42px;
+    }
+
+    /*foooooot */
+
+    .foot {
+        height: 809px;
+        width: 320px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .footContent {
+        width: 300px;
+        height: 579px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .divConteiner {
+        width: 300px;
+        height: 490px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 60px;
+    }
+
+    .footPuppy {
+        width: 300px;
+        height: 310px;
+        margin-top: 37px;
+    }
+
+
+
+    h5 {
+        width: 300px;
+        height: 24px;
+        font-family: 'Georgia';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 160%;
+        display: flex;
+        align-items: center;
+        color: #545454;
+    }
+
+    .CreditCard {
+        width: 281px;
+        height: 43px;
+        padding: 0;
+    }
+
+    .creditContent {
+        width: 251px;
+        height: 23px;
+
+    }
+
+    .bankCard {
+        width: 30px;
+        height: 23px;
+    }
+
+    .billingNumber {
+        width: 206px;
+        height: 17px;
+        font-family: 'Georgia';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 110%;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.06em;
+        color: #545454;
+    }
+
+    .legalInfo {
+        width: 280px;
+        height: 90px;
+        font-family: 'Arial';
+        font-style: italic;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        display: flex;
+        align-items: center;
+        text-align: justify;
+        color: #B2B2B2;
+    }
+
+    .donationDog {
+        width: 260px;
+        height: 135.2px;
+        margin-bottom: 40px;
+    }
+
+    #donationDog {
+        width: 260px;
+        height: 135.2px;
+        margin: auto;
+        font-display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 40px;
+    }
+
+    #footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footContact {
+        width: 278px;
+        height: 208px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 60px;
+    }
+
+    .divConteiner {
+        margin-bottom: 0px;
+    }
+
+    .fh3 {
+        width: 278px;
+        height: 64px;
+        text-align: center;
+        font-family: 'Georgia';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 130%;
+        letter-spacing: 0.06em;
+        color: #FFFFFF;
+    }
+
+    .mail {
+        width: 251px;
+        height: 32px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footLocation {}
+
+    .footPuppy {
+        width: 260px;
+        height: 269px;
+        margin-top: 0;
+        margin-top: 50px;
+    }
+
+    #footPuppy {
+        width: 260px;
+        height: 269px;
+    }
+}
