@@ -1,0 +1,399 @@
+@media (min-width: 320px) and (max-width: 768px) {
+    .mainDiv {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #container {
+        width: 100% !important;
+        height: 2578px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        /*border-color: aqua;
+        border-style: solid;*/
+        z-index: 3;
+
+    }
+
+    header {
+        height: 120px;
+        width: 320px;
+    }
+
+    #headerContainer {
+        width: 100%;
+        height: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /*border-color: chartreuse;
+        border-style: solid;*/
+        margin: 0;
+        padding: 0;
+        z-index: 1;
+    }
+
+    .HeadDiv {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 260px;
+        height: 60px;
+        /*border-color: crimson;
+        border-style: solid;*/
+    }
+
+    nav {
+        display: none;
+    }
+
+    .burgerMenu {
+        width: 30px;
+        height: 22px;
+        display: block;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .line1 {
+        width: 30px;
+        height: 0px;
+        border: 2px solid #000000;
+    }
+
+    .line2 {
+        width: 30px;
+        height: 0px;
+        border: 2px solid #000000;
+    }
+
+    .line3 {
+        width: 30px;
+        height: 0px;
+        border: 2px solid #000000;
+    }
+
+    main {
+        width: 320px;
+    }
+
+    .petsBlock {
+        width: 100%;
+        height: 1649px;
+        background: #F6F6F6;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /*border-color: blueviolet;
+        border-style: solid;*/
+        z-index: 2;
+
+    }
+
+    #patContant {
+        width: 300px;
+        height: 1565px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /*border-color: blueviolet;
+        border-style: solid;*/
+    }
+
+    h3 {
+        width: 300px;
+        height: 64px;
+        font-family: 'Georgia';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 130%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+        color: #545454;
+    }
+
+    .cardContainer {
+        width: 270px;
+        height: 1365px;
+    }
+
+    .subCardContainerOne {
+        width: 270px;
+        flex-wrap: wrap;
+    }
+
+    #sophia {
+        display: none;
+    }
+
+    .subCardContainerTwo {
+        width: 270px;
+        flex-wrap: wrap;
+        display: none;
+    }
+
+    .navigation {
+        width: 300px;
+        height: 52px;
+    }
+
+    #footer {
+        width: 320px;
+        height: 809px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .footContent {
+        width: 300;
+        height: 779;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+    .divConteiner {
+        flex-direction: column;
+        width: 300px;
+        height: 470px;
+    }
+
+    .fh3 {
+        width: 278px;
+        height: 64px;
+        font-family: 'Georgia';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 130%;
+        text-align: center;
+        letter-spacing: 0.06em;
+        color: #FFFFFF;
+    }
+
+    .footPuppy {
+        width: 260px;
+        height: 269px;
+        margin: auto;
+        margin-left: 5px;
+    }
+
+
+}
+
+@media (max-width: 320px) {
+    .mainDiv {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #container {
+        width: 100% !important;
+        height: 2578px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        /*border-color: aqua;
+        border-style: solid;*/
+        z-index: 3;
+
+    }
+
+    header {
+        height: 120px;
+        width: 320px;
+    }
+
+    #headerContainer {
+        width: 100%;
+        height: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /*border-color: chartreuse;
+        border-style: solid;*/
+        margin: 0;
+        padding: 0;
+        z-index: 1;
+    }
+
+    .HeadDiv {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 260px;
+        height: 60px;
+        /*border-color: crimson;
+        border-style: solid;*/
+    }
+
+    nav {
+        display: none;
+    }
+
+    .burgerMenu {
+        width: 30px;
+        height: 22px;
+        display: block;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .line1 {
+        width: 30px;
+        height: 0px;
+        border: 2px solid #000000;
+    }
+
+    .line2 {
+        width: 30px;
+        height: 0px;
+        border: 2px solid #000000;
+    }
+
+    .line3 {
+        width: 30px;
+        height: 0px;
+        border: 2px solid #000000;
+    }
+
+    main {
+        width: 320px;
+    }
+
+    .petsBlock {
+        width: 100%;
+        height: 1649px;
+        background: #F6F6F6;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /*border-color: blueviolet;
+        border-style: solid;*/
+        z-index: 2;
+
+    }
+
+    #patContant {
+        width: 300px;
+        height: 1565px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /*border-color: blueviolet;
+        border-style: solid;*/
+    }
+
+    h3 {
+        width: 300px;
+        height: 64px;
+        font-family: 'Georgia';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 130%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+        color: #545454;
+    }
+
+    .cardContainer {
+        width: 270px;
+        height: 1365px;
+    }
+
+    .subCardContainerOne {
+        width: 270px;
+        flex-wrap: wrap;
+    }
+
+    #sophia {
+        display: none;
+    }
+
+    .subCardContainerTwo {
+        width: 270px;
+        flex-wrap: wrap;
+        display: none;
+    }
+
+    .navigation {
+        width: 300px;
+        height: 52px;
+    }
+
+    #footer {
+        width: 320px;
+        height: 809px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .footContent {
+        width: 300;
+        height: 779;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+    .divConteiner {
+        flex-direction: column;
+        width: 300px;
+        height: 470px;
+    }
+
+    .fh3 {
+        width: 278px;
+        height: 64px;
+        font-family: 'Georgia';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 130%;
+        text-align: center;
+        letter-spacing: 0.06em;
+        color: #FFFFFF;
+    }
+
+    .footPuppy {
+        width: 260px;
+        height: 269px;
+        margin: auto;
+        margin-left: 5px;
+    }
+}
