@@ -18,7 +18,7 @@ main {
 }
 
 .container {
-    width: 1280px;
+    max-width: 1280px;
     height: 1812px;
     margin: auto;
     /*border-color: crimson;
